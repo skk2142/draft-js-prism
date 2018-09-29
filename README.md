@@ -25,6 +25,7 @@ var Prism = require('prismjs')
 var decorator = new PrismDecorator({
   // Provide your own instance of PrismJS
   prism: Prism,
+  defaultSyntax: 'javascript'
 });
 var editorState = Draft.EditorState.createEmpty(decorator)
 ```
